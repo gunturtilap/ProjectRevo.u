@@ -10,9 +10,6 @@ form.addEventListener('submit', (event) => {
   const email = emailInput.value;
   const destination = destinationSelect.value;
 
-  // Lakukan validasi input di sini
-
-  // Kirim data ke server menggunakan AJAX atau fetch API
   fetch('/submit-form', {
     method: 'POST',
     headers: {
